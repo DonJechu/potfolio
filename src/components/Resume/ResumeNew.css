@@ -1,0 +1,750 @@
+.current-role {
+    margin-bottom: 1rem; /* Ajusta el margen inferior según tus necesidades */
+  }
+  body {
+    background-color: #191A1B; /* Cambia el color a tu preferencia */
+  }
+  .background-image-container {
+    position: relative;
+    width: 80%; /* Ajusta el ancho máximo según tus preferencias */
+    max-width: 1800px; /* Establece un ancho máximo absoluto */
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 35px auto 0; /* Ajusta el margen superior para bajar la imagen */
+  }
+  
+  .welcome-header {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(25, 26, 26, 0.75) 7.42%, rgba(30, 31, 33, 0.8) 7.42%); /* Cambia el porcentaje del degradado */
+    padding: 30px;
+    margin-top: -280px; /* Ajusta esto para mover el encabezado hacia abajo */
+  }
+  
+  .banner-image {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+  .profile {
+    margin-right: 1rem;
+    margin-bottom: 15px; /* Margen inferior agregado para bajar el logo */
+    margin-top: 19px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    margin: 0.2rem 0; /* Margen superior e inferior ajustados */
+    font-size: 1.45rem;
+  }
+  
+  .profile-title {
+    margin: -0.5;
+    font-size: 1.1rem;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 15px; /* Ajusta el margen superior del contenedor del nombre y título */
+    padding-top: 10px; /* Ajusta el padding superior para separar el nombre y título */
+  }
+  
+  .profile-description {
+    flex-grow: 2;
+    text-align: left;
+  }
+  
+  /* Agrega el estilo para el divisor */
+  .divider {
+    border: none;
+    border-top: 2px solid #555555;
+    margin: 3rem 0;
+  }
+  .divider2 {
+    border: none;
+    border-top: 0px solid #555555;
+    margin: 2rem 0;
+  }
+  .divider_p {
+    border: none;
+    border-top: 1px solid #555555;
+    margin: 3rem 0;
+  }
+  
+  /* Resto de los estilos existentes */
+  
+  .btn-project {
+    align-self: flex-start;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .fixedposition {
+    position: fixed;
+    z-index: 99999;
+    background-color: #FEFEFF;
+    right: 0;
+    left: 0;
+  }
+  
+  .navbar {
+    box-shadow: 0px 5px 10px #0000001a;
+  }
+  
+  /* Agrega aquí tus estilos existentes */
+  
+  /* Estilos para la sección de reseñas */
+  .OtherProfileContent__ReviewContainer-sc-1x01f76-8 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DCE2EA;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Puedes ajustar este margen según tus necesidades */
+  }
+  
+  .OtherProfileContent__RecommendationContainer-sc-1x01f76-15 {
+    display: flex; /* Agrega esta línea para definir el estilo display */
+  }
+  
+  /* Agrega estos estilos a tu hoja de estilos CSS */
+  .image-link {
+    display: inline-block;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .hover-up-shadow {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .hover-up-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: -10px 0px 15px -5px rgba(0, 0, 0, 0.6), 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-left {
+    flex: 1;
+  }
+  
+  .footer-center {
+    flex: 1.5;
+    text-align: center;
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .logo {
+    width: 31px;
+    height: 31px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  
+  
+  .logo:hover {
+    transform: translateY(-5px);
+  }
+  
+  .topic-box {
+    display: inline-block;
+    border: 1px solid #8f897f; /* Color del borde */
+    padding: 5px 13px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .topic-text {
+    background-color: transparent; /* Fondo transparente */
+    text-align: center;
+    padding: -1px 0;
+    margin: 0;
+    border-radius: 5px;
+    color: #8F897F; /* Color del texto */
+  }
+  
+  
+  
+  
+  /* SCROLL BAR */
+  
+  /* Estilo para la barra de desplazamiento en webkit (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 4.5px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #F1F1F1; /* Color del fondo de la pista de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #8F897F; /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 3px; /* Borde redondeado del pulgar */
+  }
+  
+  /*discord copy name*/
+  .icon-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .message {
+    position: absolute;
+    background-color: #000000cc;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none; /* Evita que el mensaje interfiera con el clic en los íconos */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centrado */
+    top: -30px; /* Ajusta la posición vertical encima del ícono */
+  }
+  
+  
+  .show-message {
+    opacity: 1;
+  }
+  
+  
+  
+  /*Portafolio*/
+  .portfolio-title-container {
+    text-align: left; /* Alineación a la izquierda */
+    margin-top: 1rem; /* Espacio entre el título y las estadísticas */
+  }
+  
+  .portfolio-title {
+    margin: 0; /* Ajusta el margen del título */
+  }
+  
+  .portfolio-stats {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 0.2rem; /* Ajusta el espacio entre el título y las estadísticas */
+  }
+  .opacity-095 {
+    opacity: 1;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.75;
+  }
+  
+  
+  
+  
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: -140px;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: -55px;
+  }
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-info {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -48px;
+  }
+  .video-stats {
+    width: 150px;
+    position: relative;
+  }
+  
+  
+  .video-description-opacity {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -8px;
+  }
+  
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: -50px;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: -65px;
+  }
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-info {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -48px;
+  }
+  
+  .video-description-opacity {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -48px;
+  }
+  .video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Añade un margen inferior para separar los videos */
+  }
+  
+  
+  /*Video 2*/
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small2 {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: 240px;
+    margin-top: -220px;
+  }
+  .video-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small2 {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: 225px;
+  }
+  
+  .video-stats2 {
+    width: 150px;
+    position: relative;
+  }
+  
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .video-info2 {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes2 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -42px;
+  }
+  
+  .video-description-opacity2 {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description2 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: 240px;
+  }
+  
+  
+  
+  
+  
+  /*Video 3*/
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small3 {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: 540px;
+    margin-top: -262px;
+  }
+  .video-item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small3 {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: 525px;
+  }
+  
+  .video-stats3 {
+    width: 150px;
+    position: relative;
+  }
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .video-info3 {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes3 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -42px;
+  }
+  
+  .video-description-opacity3 {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description3 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: 540px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*VIDEO4*/
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small4 {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: -50px;
+    margin-top: 45px;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small4 {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: -65px;
+  }
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-info4 {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes4 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -48px;
+  }
+  
+  .video-description-opacity4 {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description4 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -48px;
+  }
+  .video-item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Añade un margen inferior para separar los videos */
+  }
+  
+  
+  /*Video 2*/
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small5 {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: 240px;
+    margin-top: -220px;
+  }
+  .video-item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small5 {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: 225px;
+  }
+  
+  .video-stats5 {
+    width: 150px;
+    position: relative;
+  }
+  
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .video-info5 {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes5 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -42px;
+  }
+  
+  .video-description-opacity5 {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description5 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: 240px;
+  }
+  
+  
+  
+  
+  
+  /*Video 6*/
+  /* Estilos para la miniatura del video pequeña */
+  .video-thumbnail-small6 {
+    width: 230px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 5px;
+    margin-left: 540px;
+    margin-top: -220px;
+  }
+  .video-item6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para la foto del creador pequeña */
+  .creator-photo-small6 {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    margin-left: 525px;
+  }
+  
+  .video-stats6 {
+    width: 150px;
+    position: relative;
+  }
+  
+  /* Estilos para la sección de video y sus elementos */
+  .video-section6 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .video-info6 {
+    display: flex;
+    align-items: auto; /* Alinea los elementos a la izquierda */
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .creator-views-likes6 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: -42px;
+  }
+  
+  .video-description-opacity6 {
+    margin: 0;
+    opacity: 0.75;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: -28px;
+  }
+  
+  .my-description6 {
+    margin: 0;
+    opacity: 1;
+    font-size: 0.89rem;
+    font-weight: 350;
+    text-align: left;
+    margin-left: 540px;
+  }

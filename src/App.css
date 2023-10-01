@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #131c1f;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.likediv>div {
+  width: 30%;
+
+}
+
+.likediv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading,
+.heading-name {
+  text-align: center !important;
+
+  padding-left: 0 !important;
+  padding-right: 0;
+  /* font-size: 20px !important; */
+}
+
+Nav {
+  /* width: 100%; */
+
+}
+
+.top-rectangles {
+  display: flex;
+  justify-content: space-around !important;
+  width: 100% !important;
+  flex-wrap: wrap;
+}
+
+.top-rectangles>div {
+  width: 30%;
+  margin: 3% auto;
+}
+
+.home-header,
+.main-name {
+  width: 100% !important;
+
+}
+
+
+/* 3d modeling  */
+.resume {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap;
+}
+
+.resume .firstdiv {
+  width: 50% !important;
+}
+
+.resume .seconddiv {
+  width: 30% !important;
+}
+
+.resume .thirddiv {
+  width: 40% !important;
+}
+
+.resume .fourthdiv {
+  width: 40% !important;
+}
+
+@media screen and (max-width:1000px) {
+  .likediv>div {
+    font-size: 0.8em;
+  }
+
+  .top-rectangles>div {
+    width: 47%;
+
+    margin: 3% auto;
+  }
+}
+
+
+
+@media screen and (max-width:800px) {
+  .likediv>div {
+    font-size: 0.5em !important;
+  }
+
+  .heading,
+  .heading-name {
+    text-align: center !important;
+
+    padding-left: 0 !important;
+    padding: 10px;
+    /* font-size: 20px !important; */
+  }
+
+  .home-header {
+
+    font-size: 15px !important;
+  }
+
+  .home-header,
+  .main-name {
+    width: 100% !important;
+
+  }
+
+  .top-rectangles {
+    display: block;
+    justify-content: space-around !important;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .top-rectangles>div {
+    width: 80%;
+
+    margin: 3% auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .likediv>div {
+    font-size: 0.4em !important;
+  }
+
+  .heading {
+
+    font-size: 40px !important;
+
+  }
+
+  .heading-name {
+    font-size: 20px;
+    padding: 20px !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .likediv>div {
+    font-size: 1.0em !important;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .likediv {
+    display: block;
+  }
+
+  .top-rectangles>div {
+    font-size: 30px;
+  }
+}
+div>img{
+  transition: transform 0.3s ease;
+}
+
+
+div> img:hover {
+  transform: scale(1.2); /* Zoom in on hover */
+}
+
