@@ -95,7 +95,7 @@ function Home2() {
           <div style={{ ...numberStyles, color: "#FFD32D", marginRight: "0rem" }}>
             <CountUp end={20} duration={3} />
 
-            m +
+            m+
           </div>
           <hr
             style={{
@@ -153,7 +153,7 @@ function Home2() {
             <div style={{ ...numberStyles, color: "#FFD32D", marginRight: "139rem" }}>
               <CountUp end={20} duration={3} />
 
-              m +
+              m+
             </div>
             <hr
               style={{
