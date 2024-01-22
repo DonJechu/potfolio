@@ -42,7 +42,7 @@ function Home() {
           <Row>
             <div   className="home-header">
               <h1 style={{ paddingBottom: 25 }} className="heading">
-                {"Gamifying brand engagement"}
+                {"NEW PAGE AT rby.events"}
                 <span className="wave" role="img" aria-labelledby="wave">
                 </span>
               </h1>
